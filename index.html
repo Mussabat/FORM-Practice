@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+  </head>
+  <link rel="stylesheet" href="style.css" class="rel" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <body>
+    <div class="container" >
+      <header>
+        <div class="navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Course Registration/Assesment</a></li>
+            <li><a href="#">Course Module - 2022</a></li>
+            <li><a href="#">Class Schedule</a></li>
+            <li><a href="#">Sucess Story</a></li>
+            <li><a href="#">Attendance</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </header>
+      <p class="reg">Student Registration Form</p>
+      <hr />
+      <p class="inf">
+        Please Enter Relevent
+        Information----------------------------------------------------------------------------------------------------------------------------------------------------
+      </p>
+      <small class="sml">Mandatory Field* </small>
+      <br />
+
+      <div class="main">
+        <div>
+          <from class="frm">
+            <lebel for="name" class="txt"> Name </lebel>
+            <br />
+            <input
+              type="text"
+              id="name"
+              class="name"
+              size="55"
+              placeholder="  Enter Your Name"
+            />
+            <br />
+            <lebel for="name" class="txt"> Father Name </lebel>
+            <br />
+            <input
+              type="text"
+              id="name"
+              class="name"
+              size="55"
+              placeholder="  Enter Your Father Name"
+            />
+            <br />
+            <lebel for="name" class="txt"> Mother Name </lebel>
+            <br />
+            <input
+              type="text"
+              id="name"
+              class="name"
+              size="55"
+              placeholder="  Enter Your Name"
+            />
+            <br />
+            <lebel for="name" class="txt"> Email </lebel>
+            <br />
+            <input
+              type="email"
+              id="name"
+              class="name"
+              size="55"
+              placeholder="  Enter E-mail address"
+            />
+
+            <br />
+            <lebel class="course">Course*</lebel>
+            <br />
+            <select id="Course" class="cours">
+              <option>--Select One--</option>
+              <option>Web Design</option>
+              <option>Graphic Design</option>
+              <option>Digital Marketing</option>
+              <option>Machine Learning</option>
+              <option>Deep Learning</option>
+            </select>
+            <br />
+            <form>
+              <label class="ra">Gender</label>
+              <input
+                type="radio"
+                id="rad"
+                name="sos"
+                class="rad"
+                value="male"
+              />
+              <label for="rad" class="raad">Male</label>
+              <input
+                type="radio"
+                id="rad"
+                name="sos"
+                class="rad"
+                value="female"
+              />
+              <label for="rad" class="raad">Female</label>
+            </form>
+            <br />
+            <label class="phn">Phone (Must be 11 Digits)* </label>
+            <br />
+            <input type="text" class="pn" placeholder="  Enter Phone Number" />
+          </from>
+        </div>
+        <div class="B">
+          <label class="idn">Identification Type* </label>
+          <br />
+          <select id="Course" class="idd">
+            <option>--Select One--</option>
+            <option>National ID</option>
+            <option>Birth Certificate No.</option>
+          </select>
+          <br />
+          <input type = "text" class = "pn" placeholder="  NID/Birth Certificate">
+          <br>
+          <label class="idn">Educational Qualification* (Higher Level)
+          </label>
+          <br>
+          <select id="Course" class="idd">
+            <option>--Select One--</option>
+            <option>Higher Secondary/ Equivalent</option>
+            <option>Bachelor</option>
+            <option>Master</option>
+            <option>PhD</option>
+          </select>
+          <br>
+          <label class="idn">Photograph* </label>
+          <input type = "file" placeholder="pdf format">
+          <br>
+            <br>
+          <form action>
+            <fieldset class = "fld">
+              <legend class = "omuk"> Date of Birth</legend>
+
+              <div class = "flw">
+                <div>
+              <label class = "oro">Date</label><br>
+              <input type = "text" class = "ogg">
+              </div>
+              <div>
+              <label class = "oro">Month</label><br>
+              <select id="Course" class = "mnt">
+                <option>--Select One--</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>Decemmber</option>
+
+              </select>
+    
+              </div>
+              <div>
+              <label class = "oro">Year</label><br>
+              <input type = "text" class = "ogg">
+              </div>
+                </div>
+            </fieldset>
+          </form>
+
+
+
+          <br>
+
+          <form class = "raa">
+            <label class="raa">Have Any Computer*</label>
+            <input
+              type="radio"
+              id="rad"
+              name="sos"
+              class="rad"
+              value="male"
+            />
+            <label for="rad" class="raad">YES</label>
+            <input
+              type="radio"
+              id="rad"
+              name="sos"
+              class="rad"
+              value="female"
+            />
+            <label for="rad" class="raad">NO</label>
+
+            <br>
+            <br>
+
+            <button class = "btn">Submit</button>
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
